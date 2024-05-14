@@ -1,0 +1,35 @@
+/* body{
+    background-color: red;
+}
+h1{
+    color: white;
+}
+form h1{
+    color: black;
+} */
+.login-container>h2{
+    text-align: center;
+}
+.form-container{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form-header h3{
+    margin: 0;
+}
+.form-container *{
+    display: block;
+    line-height: 1.5;
+    width: 100%;
+    padding: 5px;
+}
+.form-container input{
+    width: fit-content;
+}
+.form-button button{
+    width: fit-content;
+    margin: auto;
+}
