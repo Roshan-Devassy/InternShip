@@ -1,0 +1,41 @@
+body{
+  background-image: url("./images/bg-img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.left-side{
+  color: white;
+  margin-top: 100px;
+  line-height: 0.5;
+}
+.left-side img{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.btn button{
+  height: 1cm;
+  width: auto;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+}
+.right-side{
+  margin-top: 100px;
+}
+.right-side p{
+  display: inline;
+  padding: 5px;
+  color: white;
+}
+.logos img{
+  margin-top: 5px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 5px;
+}
