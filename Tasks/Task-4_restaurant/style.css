@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.bg-img{
+    background: linear-gradient(to right,black,black,rgba(244, 239, 239, 0.752));
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.header .logo{
+    color: white;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: larger;
+}
+.navbar li{
+    display: inline;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding-left: 0.5rem;
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 0.5rem;
+    align-items:center ;
+}
+.icons a{
+    text-decoration: none;
+}
+.header .icons img{
+    height: 30px;
+    border-radius: 50%;
+}
+.header .icons button{
+    height: 30px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+
+.main{
+    position: relative;
+}
+.main-header{
+    padding: 30px;
+    background-image: url(./images/burger-frenchfries.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    background-color: linen;
+}
+.main-header h1,.main-header p{
+    width: 50%;
+}
+.main-header button{
+    background-color: yellow;
+    border-radius: 10px;
+    height: 2rem;
+}
+.main-body{
+    background-color: linen;
+}
+.special-list{
+    padding: 0px 50px;
+}
+.special-list .special-list-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.special-item{
+    display: flex;
+    justify-content: space-around;
+}
+.special-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.special-item .items{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 5px 5px 10px black;
+}
+.items h4,.items p{
+    padding-left: 10px;
+}
