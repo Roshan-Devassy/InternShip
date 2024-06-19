@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            padding: 50px;
+            border: 5px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button onclick="calculate()">Calculate</button>
+        <p>Addition : <span id="adds"></span></p>
+        <p>Subtraction : <span id="subs"></span></p>
+        <p>Multiplication : <span id="mult"></span></p>
+        <p>Division : <span id="divs"></span></p>
+
+        <script>
+            function calculate(){
+                let num1=parseInt(document.getElementById('num1').value);
+                let num2=parseInt(document.getElementById('num2').value);
+            
+                document.getElementById('adds').innerHTML=num1+num2;
+                document.getElementById('subs').innerText=num1-num2;
+                document.getElementById('mult').innerText=num1*num2;
+                document.getElementById('divs').innerText=num1/num2;
+            }
+        </script>
+        
+    </div>
+</body>
+</html>
